@@ -7,10 +7,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 $(document).ready(function() {
   $('Body').addClass('animated fadeInUp');
+  $('enter').addClass('animated fadeInDown')
 
-$(".flag").lettering();
 
 });
+
 
 
 
