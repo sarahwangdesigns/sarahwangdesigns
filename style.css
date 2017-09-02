@@ -64,92 +64,61 @@ body {
   background-color: white;
 }
 
-@use postcss-cssnext;
+@import "compass/css3";
 
-/* ••·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
-:root {
-	--animation-delay: 2s;
-	--duration: 800ms;
-	--iterations: 1;
-}
-/* ••·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
-
-body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	background-color: #8ce2ea;
-	flex-direction: column;
+body{
+  background:black;
+  font-family: 'Varela', sans-serif;
 }
 
-.reveal-text,
-.reveal-text::after {
-	animation-delay: var(--animation-delay);
-	animation-iteration-count: var(--iterations);
-	animation-duration: var(--duration);
-	animation-fill-mode: both;
-	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+.glitch{
+  color:white;
+  font-size:100px;
+  position:relative;
+  width:400px;
+  margin:0 auto;
+}
+@keyframes noise-anim{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+.glitch:after{
+  content:attr(data-text);
+  position:absolute;
+  left:2px;
+  text-shadow:-1px 0 red;
+  top:0;
+  color:white;
+  background:black;
+  overflow:hidden;
+  clip:rect(0,900px,0,0);
+  animation:noise-anim 2s infinite linear alternate-reverse;
 }
 
-.reveal-text {
-	position: relative;
-	font-size: 10vw;
-	display: block;
-	user-select: none;
-	animation-name: reveal-text;
-	color: #FFF;
-	white-space: nowrap;
-	cursor: default;
-
-	&::after {
-		content: "";
-		position: absolute;
-		z-index: 999;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-color: #f2f98b;
-		transform: scaleX(0);
-		transform-origin: 0 50%;
-		pointer-events: none;
-		animation-name: revealer-text;
-	}
-
+@keyframes noise-anim-2{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
 }
-
-
-@keyframes reveal-text {
-	from {
-		clip-path: inset(0 100% 0 0);
-	}
-	to {
-		clip-path: inset(0 0 0 0);
-	}
+.glitch:before{
+  content:attr(data-text);
+  position:absolute;
+  left:-2px;
+  text-shadow:1px 0 blue;
+  top:0;
+  color:white;
+  background:black;
+  overflow:hidden;
+  clip:rect(0,900px,0,0);
+  animation:noise-anim-2 3s infinite linear alternate-reverse;
 }
-
-
-@keyframes revealer-text {
-
-	0%, 50% {
-		transform-origin: 0 50%;
-	}
-
-	60%, 100% {
-		transform-origin: 100% 50%;
-	}
-
-
-	60% {
-		transform: scaleX(1);
-	}
-
-	100% {
-		transform: scaleX(0);
-	}
-}
-
 
 header {
   margin: 0;
