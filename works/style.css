@@ -207,17 +207,14 @@ li a:active {
 }
 
 
-
-
 #container{
   position: relative;
   margin: 0;
   padding: 0;
-  /*float: left;*/
-  text-align: left;
+  float: left;
   margin-left: 30%;
   margin-right: 10%;
-  /*margin-left: 5%;*/
+  margin-bottom: 10%;
   width: 40%;
   height: 20%;
   clear: both;
@@ -230,7 +227,9 @@ li a:active {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img{
 width: 100%; /* use this, or not */
-margin: auto;
+margin: 0;
+padding: 0;
+text-align: center;
 }
 
 

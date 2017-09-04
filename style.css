@@ -65,10 +65,49 @@ body {
 }
 
 #enter {
-  margin-top: 25%;
+  margin-top: 20%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 42px;
+}
+
+.button {
+    position: relative;
+    background-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-top: 3%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
 }
 
 header {
