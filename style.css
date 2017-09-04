@@ -148,6 +148,7 @@ nav li {
   margin-left: 10%;
   float: left;
   margin-bottom: 23%;
+  clear: both;
 }
 
 #welcome {
