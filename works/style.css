@@ -135,24 +135,25 @@ li a:active {
 }
 
 #welcome {
-  /*float: left;*/
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 48px;
   text-align: left;
-  margin-bottom: 50%;
+  margin-bottom: 60%;
   margin-left: 10%;
   clear: both;
 }
 
 #work {
+  position: absolute;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  max-width: 70%;
+  max-width: 60%;
   margin-top: 20%;
   float: left;
+  clear: both;
 }
 
 
@@ -246,10 +247,52 @@ text-align: center;
 
 #signaturePrint {
   font-weight: 600;
-  /*font-family: 'Montserrat', sans-serif;*/
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
 }
 
 
+/* Extra Things */
+body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
 
 footer {
   position: fixed;
@@ -265,19 +308,18 @@ footer {
 }
 
 footer a:link {
-  color: #000000;
+  color: lightgray;
   text-decoration: none;
   padding: 8px;
 }
 
 footer a:visited {
-  color: #000000;
+  color: gray;
   text-decoration: underline;
   padding: 8px;
 }
 
 footer a:hover {
-  color: #ffffff;
-  background-color: #ABC178;
+  color: black;
   padding: 8px;
 }
