@@ -135,6 +135,31 @@ li a:active {
   color: black;
 }
 
+.icon-bar {
+    position: fixed;
+    margin-top: 15%;
+    width: 50px;
+    background-color: black;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.active {
+    background-color: gray !important;
+}
+
 #welcome {
   margin: 0;
   padding: 0;
