@@ -76,9 +76,11 @@ h {
 nav {
   margin: 0;
   padding: 0;
+  margin-top: 3%;
   position: relative;
   max-width: 90%;
   font-weight: 400;
+  margin-left: 60%;
 }
 
 ul {
@@ -93,8 +95,11 @@ li {
   list-style-type: none;
   text-decoration: none;
   display: inline-block;
-  margin-left: 3%;
-  float: right;
+  text-align: left;
+}
+
+#nav{
+  padding-left: 5%;
 }
 
 #logo {
@@ -104,6 +109,7 @@ li {
   font-weight: 500;
   margin-left: 10%;
   float: left;
+  clear: both;
 }
 
 #logo a {
@@ -138,26 +144,28 @@ li a:active {
 .icon-bar {
     position: fixed;
     margin-top: 15%;
-    width: 50px;
-    background-color: black;
+    width: 60px;
+    background-color: gray;
 }
 
 .icon-bar a {
     display: block;
     text-align: center;
-    padding: 5px;
+    height: 60px;
     transition: all 0.3s ease;
     color: white;
     font-size: 36px;
 }
 
 .icon-bar a:hover {
-    background-color: gray;
+    background-color: black;
     color: white;
+    opacity: 1;
 }
 
 .active {
-    background-color: gray !important;
+    background-color: black !important;
+    color: white;
 }
 
 #welcome {
@@ -228,34 +236,19 @@ li a:active {
   float: right;
   margin-right: 10%;
   margin-left: 5%;
-  width: 40%;
+  margin-bottom: 5%;
+  width: 35%;
   height: 20%;
   clear: both;
 }
 
-
-#container{
-  position: relative;
-  margin: 0;
+.carousel-caption {
   padding: 0;
-  float: left;
-  margin-top: 10%;
-  margin-left: 30%;
-  margin-right: 10%;
-  margin-bottom: 10%;
-  width: 40%;
-  height: 20%;
-  clear: both;
+  opacity: .85;
 }
 
-#container a{
+.carousel-indicator {
   text-align: center;
-  color: white;
-}
-
-.carousel-indicators {
-  text-align: center;
-  color: white;
 }
 
 .carousel-inner > .item > img,
@@ -263,7 +256,6 @@ li a:active {
 width: 100%; /* use this, or not */
 margin: 0;
 padding: 0;
-text-align: center;
 }
 
 

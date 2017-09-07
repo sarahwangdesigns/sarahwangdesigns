@@ -89,6 +89,7 @@ body {
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
+    margin-bottom: 25%;
 }
 
 .button:hover {
@@ -119,9 +120,11 @@ header {
 nav {
   margin: 0;
   padding: 0;
+  margin-top: 3%;
   position: relative;
   max-width: 90%;
   font-weight: 400;
+  margin-left: 55%;
 }
 
 ul {
@@ -131,13 +134,13 @@ ul {
   font-size: 14px;
 }
 
-nav li {
+li {
   position: relative;
   list-style-type: none;
   text-decoration: none;
   display: inline-block;
-  margin-left: 3%;
-  float: right;
+  margin-left: 10%;
+  text-align: left;
 }
 
 #logo {
@@ -149,6 +152,10 @@ nav li {
   float: left;
   margin-bottom: 23%;
   clear: both;
+}
+
+#logo a{
+  text-decoration: none;
 }
 
 #welcome {
