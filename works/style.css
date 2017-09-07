@@ -168,6 +168,36 @@ li a:active {
     color: white;
 }
 
+.floating{
+    float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}
+}
+
+.fade {
+  opacity: 1;
+}
 
 #welcome {
   margin: 0;
@@ -207,6 +237,17 @@ li a:active {
   padding: 0;
   position: relative;
   margin-bottom: 20%;
+  margin-top: 7%;
+  margin-left: 10%;
+  text-align: left;
+  width: 45%;
+}
+
+#workDesc3 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-bottom: 8%;
   margin-top: 7%;
   margin-left: 10%;
   text-align: left;
