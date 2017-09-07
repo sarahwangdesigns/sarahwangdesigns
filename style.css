@@ -196,7 +196,7 @@ li a:hover {
 
 li a:active {
   text-decoration: none;
-  color: gray;
+  color: black;
 }
 
 li a:focus {
