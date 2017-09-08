@@ -36,6 +36,7 @@ $('button.back-to-top').click(function() {
 });
 
 
+//fade in pictures as I scroll up and down
 $(window).on("load",function() {
   $(window).scroll(function() {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();

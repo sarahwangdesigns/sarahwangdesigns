@@ -226,8 +226,6 @@ li a:active {
   margin: 0;
   padding: 0;
   position: relative;
-  margin-bottom: 20%;
-  margin-top: 7%;
   margin-left: 55%;
   text-align: left;
 }
@@ -236,11 +234,10 @@ li a:active {
   margin: 0;
   padding: 0;
   position: relative;
-  margin-bottom: 20%;
-  margin-top: 7%;
   margin-left: 10%;
   text-align: left;
   width: 45%;
+  height: 100%;
 }
 
 #workDesc3 {
@@ -248,10 +245,10 @@ li a:active {
   padding: 0;
   position: relative;
   margin-bottom: 8%;
-  margin-top: 7%;
   margin-left: 10%;
   text-align: left;
   width: 45%;
+  height: 100%;
 }
 
 #pic {
@@ -281,6 +278,13 @@ li a:active {
   width: 35%;
   height: 20%;
   clear: both;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+  overflow: auto;
 }
 
 
