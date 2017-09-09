@@ -80,7 +80,7 @@ nav {
   position: relative;
   max-width: 90%;
   font-weight: 400;
-  margin-left: 60%;
+  margin-left: 55%;
 }
 
 ul {
@@ -95,11 +95,8 @@ li {
   list-style-type: none;
   text-decoration: none;
   display: inline-block;
+  margin-left: 7%;
   text-align: left;
-}
-
-#nav{
-  padding-left: 5%;
 }
 
 #logo {
@@ -144,7 +141,7 @@ li a:active {
 .icon-bar {
     position: fixed;
     margin-top: 15%;
-    width: 4%;
+    width: 5%;
     background-color: gray;
 }
 
@@ -206,7 +203,7 @@ li a:active {
   font-weight: 600;
   font-size: 48px;
   text-align: left;
-  margin-bottom: 60%;
+  margin-bottom: 50%;
   margin-left: 10%;
   clear: both;
 }
@@ -254,8 +251,6 @@ li a:active {
 #pic {
   position: relative;
   float: right;
-  width: 25%;
-  height: 12.5%;
   margin-top: 13%;
   margin-right: 15%;
   clear: both;
@@ -287,6 +282,11 @@ li a:active {
   overflow: auto;
 }
 
+#rabbitInfo img{
+  margin-bottom: 5%;
+  margin-left: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .carousel-caption {
   padding: 0;
