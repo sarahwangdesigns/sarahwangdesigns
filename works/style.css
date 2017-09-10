@@ -141,7 +141,7 @@ li a:active {
 .icon-bar {
     position: fixed;
     margin-top: 15%;
-    width: 5%;
+    width: 60px;
     background-color: gray;
 }
 
@@ -288,6 +288,19 @@ li a:active {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+
+#rabbitInfo img:hover {
+  width: 50%;
+  height: 50%;
+    cursor: zoom-in;
+    -webkit-transition: all 2s ease;
+       -moz-transition: all 2s ease;
+        -ms-transition: all 2s ease;
+            transition: all 2s ease;
+
+}
+
 .carousel-caption {
   padding: 0;
   opacity: .85;
@@ -394,6 +407,8 @@ button.back-to-top.show:active {
   -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
 }
+
+
 
 /*footer {
   position: fixed;
