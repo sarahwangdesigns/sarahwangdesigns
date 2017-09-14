@@ -138,9 +138,32 @@ li a:active {
   color: black;
 }
 
+#iconHeading {
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  position: fixed;
+  float: left;
+  left: .7%;
+  top: 29%;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: lightgray;
+  /*top: 55%;
+  left: -6%;
+  font-size: 3em;
+  display: block;*/
+  /*-ms-transform: rotate(90deg); /* IE 9 */
+    /*-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    /*transform: rotate(90deg);
+  transform: translateX(-50px;)
+      clear: both;*/
+}
+
 .icon-bar {
     position: fixed;
-    margin-top: 15%;
+    margin-top: 10%;
     width: 60px;
     background-color: gray;
 }
@@ -165,6 +188,7 @@ li a:active {
     color: white;
 }
 
+
 .floating{
     float: left;
     -webkit-animation-name: Floatingx;
@@ -177,7 +201,7 @@ li a:active {
     -moz-animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
-
+    clear: both;
 }
 
 @-webkit-keyframes Floatingx{
