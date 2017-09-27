@@ -306,15 +306,13 @@ li a:active {
   overflow: auto;
 }
 
-#rabbitInfo img{
+#info1 img{
   margin-bottom: 5%;
   margin-left: 3%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
-#rabbitInfo img:hover {
+#info1 img:hover {
   width: 50%;
   height: 50%;
     cursor: zoom-in;
@@ -322,8 +320,25 @@ li a:active {
        -moz-transition: all 2s ease;
         -ms-transition: all 2s ease;
             transition: all 2s ease;
-
 }
+
+#info2 img{
+  margin-bottom: 5%;
+  margin-left: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#info2 img:hover {
+  width: 85%;
+  height: 85%;
+    cursor: zoom-in;
+    -webkit-transition: all 2s ease;
+       -moz-transition: all 2s ease;
+        -ms-transition: all 2s ease;
+            transition: all 2s ease;
+}
+
+
 
 .carousel-caption {
   padding: 0;
