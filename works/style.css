@@ -155,65 +155,76 @@ li a:active {
   font-size: 3em;
   display: block;*/
   /*-ms-transform: rotate(90deg); /* IE 9 */
-    /*-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    /*transform: rotate(90deg);
+  /*-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  /*transform: rotate(90deg);
   transform: translateX(-50px;)
       clear: both;*/
 }
 
 .icon-bar {
-    position: fixed;
-    margin-top: 10%;
-    width: 60px;
-    background-color: gray;
+  position: fixed;
+  margin-top: 10%;
+  width: 60px;
+  background-color: gray;
 }
 
 .icon-bar a {
-    display: block;
-    text-align: center;
-    height: 60px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 36px;
+  display: block;
+  text-align: center;
+  height: 60px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
 }
 
 .icon-bar a:hover {
-    background-color: black;
-    color: white;
-    opacity: 1;
+  background-color: black;
+  color: white;
+  opacity: 1;
 }
 
 .active {
-    background-color: black !important;
-    color: white;
+  background-color: black !important;
+  color: white;
 }
 
-
-.floating{
-    float: left;
-    -webkit-animation-name: Floatingx;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-name: Floating;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-    clear: both;
+.floating {
+  float: left;
+  -webkit-animation-name: Floatingx;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-name: Floating;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+  clear: both;
 }
 
-@-webkit-keyframes Floatingx{
-    from {-webkit-transform:translate(0, 0px);}
-    65% {-webkit-transform:translate(0, 15px);}
-    to {-webkit-transform: translate(0, -0px);    }
+@-webkit-keyframes Floatingx {
+  from {
+    -webkit-transform: translate(0, 0px);
+  }
+  65% {
+    -webkit-transform: translate(0, 15px);
+  }
+  to {
+    -webkit-transform: translate(0, -0px);
+  }
 }
 
-@-moz-keyframes Floating{
-    from {-moz-transform:translate(0, 0px);}
-    65% {-moz-transform:translate(0, 15px);}
-    to {-moz-transform: translate(0, -0px);}
+@-moz-keyframes Floating {
+  from {
+    -moz-transform: translate(0, 0px);
+  }
+  65% {
+    -moz-transform: translate(0, 15px);
+  }
+  to {
+    -moz-transform: translate(0, -0px);
+  }
 }
 
 .fade {
@@ -241,7 +252,6 @@ li a:active {
   float: left;
   clear: both;
 }
-
 
 #workDesc {
   margin: 0;
@@ -280,7 +290,7 @@ li a:active {
   clear: both;
 }
 
-#pic1{
+#pic1 {
   position: relative;
   float: left;
   margin-left: 10%;
@@ -289,7 +299,7 @@ li a:active {
   clear: both;
 }
 
-#pic2{
+#pic2 {
   position: relative;
   float: right;
   margin-right: 10%;
@@ -306,7 +316,7 @@ li a:active {
   overflow: auto;
 }
 
-#info1 img{
+#info1 img {
   margin-bottom: 5%;
   margin-left: 3%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -315,14 +325,14 @@ li a:active {
 #info1 img:hover {
   width: 50%;
   height: 50%;
-    cursor: zoom-in;
-    -webkit-transition: all 2s ease;
-       -moz-transition: all 2s ease;
-        -ms-transition: all 2s ease;
-            transition: all 2s ease;
+  cursor: zoom-in;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
 }
 
-#info2 img{
+#info2 img {
   margin-bottom: 5%;
   margin-left: 3%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -331,14 +341,12 @@ li a:active {
 #info2 img:hover {
   width: 85%;
   height: 85%;
-    cursor: zoom-in;
-    -webkit-transition: all 2s ease;
-       -moz-transition: all 2s ease;
-        -ms-transition: all 2s ease;
-            transition: all 2s ease;
+  cursor: zoom-in;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
 }
-
-
 
 .carousel-caption {
   padding: 0;
@@ -349,13 +357,12 @@ li a:active {
   text-align: center;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img{
-width: 100%; /* use this, or not */
-margin: 0;
-padding: 0;
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  width: 100%;
+  /* use this, or not */
+  margin: 0;
+  padding: 0;
 }
-
 
 #workHeading {
   font-size: 24px;
@@ -373,80 +380,81 @@ padding: 0;
   font-weight: 600;
 }
 
-button.back-to-top{
+button.back-to-top {
   margin: 0 !important;
   padding: 0 !important;
   background: #fff;
-	height: 0px;
+  height: 0px;
   width: 0px;
   overflow: hidden;
-	border-radius: 50px;
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
   color: transparent;
-	clear: both;
+  clear: both;
   visibility: hidden;
   position: fixed;
   cursor: pointer;
   display: block;
   border: none;
   right: 50px;
-	bottom: 75px;
+  bottom: 75px;
   font-size: 0px;
   outline: 0 !important;
   z-index: 99;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-button.back-to-top:hover,
-button.back-to-top:active,
-button.back-to-top:focus,{
+
+button.back-to-top:hover, button.back-to-top:active, button.back-to-top:focus, {
   outline: 0 !important;
 }
-button.back-to-top::before,
-button.back-to-top::after {
+
+button.back-to-top::before, button.back-to-top::after {
   content: "";
-    display: block;
-    vertical-align: middle;
-    border-bottom: solid 10px #EA5D5F;
-    border-left: solid 10px transparent;
-    line-height: 0;
-    border-right: solid 10px transparent;
-    height: 0;
-    margin: 18px auto 0;
-    width: 0;
-  border-radius:20px;
+  display: block;
+  vertical-align: middle;
+  border-bottom: solid 10px #EA5D5F;
+  border-left: solid 10px transparent;
+  line-height: 0;
+  border-right: solid 10px transparent;
+  height: 0;
+  margin: 18px auto 0;
+  width: 0;
+  border-radius: 20px;
   visibility: hidden;
 }
-button.back-to-top.show::after,
-button.back-to-top.show::before{
+
+button.back-to-top.show::after, button.back-to-top.show::before {
   visibility: visible;
 }
+
 button.back-to-top::after {
-  border-bottom-color:#fff;
-      position: relative;
-  top:-24px;
+  border-bottom-color: #fff;
+  position: relative;
+  top: -24px;
 }
+
 button.back-to-top.show {
   display: block;
   background: #fff;
   color: #00ab6c;
   font-size: 25px;
   right: 25px;
-	bottom: 50px;
+  bottom: 50px;
   height: 50px;
   width: 50px;
   visibility: visible;
-	box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
 }
+
 button.back-to-top.show:active {
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
 }
-
 
 
 /*footer {
