@@ -238,8 +238,9 @@ li a:active {
   font-weight: 600;
   font-size: 48px;
   text-align: left;
-  margin-bottom: 50%;
+  margin-bottom: 20%;
   margin-left: 10%;
+  float:left;
   clear: both;
 }
 
@@ -282,13 +283,13 @@ li a:active {
   height: 100%;
 }
 
-#pic {
+/*#pic {
   position: relative;
   float: right;
   margin-top: 13%;
   margin-right: 15%;
   clear: both;
-}
+}*/
 
 #pic1 {
   position: relative;
@@ -341,6 +342,22 @@ li a:active {
 #info2 img:hover {
   width: 85%;
   height: 85%;
+  cursor: zoom-in;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+#info3 img {
+  margin-bottom: 5%;
+  margin-left: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#info3 img:hover {
+  width: 120%;
+  height: 110%;
   cursor: zoom-in;
   -webkit-transition: all 2s ease;
   -moz-transition: all 2s ease;
