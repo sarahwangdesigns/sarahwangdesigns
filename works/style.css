@@ -198,8 +198,6 @@ li a:active {
   -moz-animation-duration: 3s;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: ease-in-out;
-  margin-left: 30px;
-  margin-top: 5px;
   clear: both;
 }
 
@@ -283,13 +281,27 @@ li a:active {
   height: 100%;
 }
 
-/*#pic {
+#pic {
   position: relative;
   float: right;
-  margin-top: 13%;
-  margin-right: 15%;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 5%;
+  width: 30%;
+  height: 30%;
   clear: both;
-}*/
+}
+
+#picD {
+  position: relative;
+  float: right;
+  margin-top: 22%;
+  margin-right: 10%;
+  margin-left: 5%;
+  width: 30%;
+  height: 30%;
+  clear: both;
+}
 
 #pic1 {
   position: relative;
