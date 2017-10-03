@@ -325,10 +325,7 @@ li a:focus {
 
 #contactIcons {
   position: relative;
-}
-
-#contactIcons p{
-  line-height: 150%;
+  line-height: 175%;
 }
 
 #contactIcons a {
