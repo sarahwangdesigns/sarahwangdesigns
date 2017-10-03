@@ -272,17 +272,18 @@ li a:focus {
   margin: 0;
   padding: 0;
   position: relative;
-  margin-bottom: 12%;
-  margin-top: 7%;
   margin-left: 50%;
   text-align: left;
-  max-width: 90%;
+  margin-bottom: 15%;
 }
 
 #pictureOfMe {
   position: relative;
   float: left;
-  margin-left: 10%;
+  left: 10%;
+  width: 35%;
+  height: auto;
+  clear: both;
 }
 
 #aboutMe {
@@ -293,7 +294,7 @@ li a:focus {
 
 #aboutDesc {
   font-size: 14px;
-  max-width: 65%;
+  margin-right: 20%;
 }
 
 #resume {
@@ -301,16 +302,17 @@ li a:focus {
   float: left;
   left: 10%;
   width: 40%;
-  height: 100%;
+  height: auto;
+  clear: both;
 }
 
 #contact {
+  margin: 0;
+  padding: 0;
   position: relative;
-  margin-top: 7%;
   margin-left: 55%;
-  margin-right: 10%;
-  margin-bottom: 36%;
   text-align: left;
+  margin-right: 10%;
 }
 
 #contactMe {
@@ -342,8 +344,9 @@ li a:focus {
 }
 
 #signaturePrint {
+  position: relative;
   font-weight: 600;
-  /*font-family: 'Montserrat', sans-serif;*/
+  float: left;
 }
 
 
@@ -376,4 +379,10 @@ footer a:hover {
   color: #ffffff;
   background-color: #ABC178;
   padding: 8px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  body {
+    width:100%;
 }
