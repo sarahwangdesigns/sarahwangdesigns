@@ -327,6 +327,10 @@ li a:focus {
   position: relative;
 }
 
+#contactIcons p{
+  line-height: 1.5;
+}
+
 #contactIcons a {
   text-decoration: none;
   color: #BC6F85;
