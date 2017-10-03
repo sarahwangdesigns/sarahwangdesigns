@@ -380,9 +380,3 @@ footer a:hover {
   background-color: #ABC178;
   padding: 8px;
 }
-
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  body {
-    width:100%;
-}
