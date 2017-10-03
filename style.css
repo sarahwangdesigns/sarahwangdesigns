@@ -323,6 +323,23 @@ li a:focus {
   font-size: 14px;
 }
 
+#contactIcons {
+  position: relative;
+}
+
+#contactIcons a {
+  text-decoration: none;
+  color: #BC6F85;
+}
+
+#contactIcons a:hover {
+  color: #D997AA;
+}
+
+#contactIcons a:visited {
+  color: lightgray;
+}
+
 #signaturePrint {
   font-weight: 600;
   /*font-family: 'Montserrat', sans-serif;*/
