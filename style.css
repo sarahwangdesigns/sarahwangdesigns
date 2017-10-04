@@ -125,6 +125,7 @@ nav {
   max-width: 90%;
   font-weight: 400;
   margin-left: 55%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 ul {
@@ -315,12 +316,6 @@ li a:focus {
   margin-right: 10%;
 }
 
-/*#contactMe {
-  font-size: 24px;
-  font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
-}*/
-
 #contactDesc {
   font-size: 14px;
 }
@@ -458,7 +453,7 @@ li {
 
   #welcome {
       font-size: 24px;
-      width: 90%;
+      max-width: 80%;
     }
 
   #title {
@@ -507,7 +502,7 @@ li {
 
   #welcome {
       font-size: 24px;
-      width: 80%;
+      max-width: 80%;
     }
 
   #title {
@@ -537,7 +532,7 @@ li {
 @media (min-width: 992px) and (max-width: 1199px) {
 
   #welcome {
-      width: 90%;
+      max-width: 90%;
     }
 
 }
