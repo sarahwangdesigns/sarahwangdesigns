@@ -298,22 +298,14 @@ li a:focus {
   margin-right: 20%;
 }
 
-#resume {
-  position: relative;
-  float: left;
-  left: 10%;
-  width: 40%;
-  height: auto;
-  clear: both;
-}
-
 #contact {
   margin: 0;
   padding: 0;
   position: relative;
-  margin-left: 55%;
+  float: left;
+  left: 10%;
   text-align: left;
-  margin-right: 10%;
+  margin-bottom: 30%;
 }
 
 #contactDesc {
@@ -405,7 +397,7 @@ li {
 
 #welcome {
     font-size: 24px;
-    width: 80%;
+    max-width: 80%;
   }
 
 #title {
@@ -422,6 +414,10 @@ li {
   right: 40%;
   width: 100%;
   margin-top: 130%;
+}
+
+#contactDesc {
+  width: 80%;
 }
 
 #contactInfo {
@@ -452,7 +448,7 @@ li {
   }
 
   #welcome {
-      font-size: 24px;
+      font-size: 28px;
       max-width: 80%;
     }
 
@@ -501,7 +497,7 @@ li {
   }
 
   #welcome {
-      font-size: 24px;
+      font-size: 32px;
       max-width: 80%;
     }
 
@@ -531,17 +527,11 @@ li {
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-  #welcome {
-      max-width: 90%;
-    }
 
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
-  #welcome {
-      width: 90%;
-    }
 
 }
