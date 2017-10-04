@@ -414,13 +414,14 @@ li {
 }
 
 #contactInfo {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 225%;
 }
 
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
+
   #logo {
     font-size: 18px;
   }
