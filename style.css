@@ -396,8 +396,8 @@ li {
 }
 
 #welcome {
-    font-size: 24px;
-    max-width: 80%;
+    font-size: 30px;
+    max-width: 85%;
   }
 
 #title {
@@ -425,6 +425,8 @@ li {
   line-height: 225%;
 }
 
+}
+
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
@@ -448,8 +450,8 @@ li {
   }
 
   #welcome {
-      font-size: 28px;
-      max-width: 80%;
+      font-size: 36px;
+      max-width: 85%;
     }
 
   #title {
@@ -475,7 +477,7 @@ li {
 
 }
 
-/*Medium devices (tablets, 768px and up)*/
+/* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {
 
   #logo {
@@ -497,8 +499,8 @@ li {
   }
 
   #welcome {
-      font-size: 32px;
-      max-width: 80%;
+      font-size: 40px;
+      max-width: 85%;
     }
 
   #title {
@@ -527,6 +529,9 @@ li {
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
+  #welcome {
+      max-width: 85%;
+    }
 
 }
 
