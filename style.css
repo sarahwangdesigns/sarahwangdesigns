@@ -376,8 +376,8 @@ header {
   margin-top: 8%;
 }
 
-work h1 {
-  width: 50%;
+#work h1 {
+  width: 80%;
 }
 
 #logo {
