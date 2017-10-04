@@ -12,6 +12,11 @@ $(document).ready(function() {
 
 });
 
+function preloadImage(url)
+{
+    var img=new Image();
+    img.src=url;
+}
 
 
 
