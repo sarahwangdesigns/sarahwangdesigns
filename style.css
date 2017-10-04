@@ -416,12 +416,7 @@ li {
   margin-top: 130%;
 }
 
-#contactDesc {
-  width: 80%;
-}
-
 #contactInfo {
-  font-size: 14px;
   line-height: 225%;
 }
 
@@ -459,7 +454,7 @@ li {
     }
 
   #pictureOfMe {
-   width: 100%;
+   width: 80%;
    height: auto;
   }
 
@@ -471,7 +466,6 @@ li {
   }
 
   #contactInfo {
-    font-size: 10px;
     line-height: 225%;
   }
 
@@ -519,8 +513,16 @@ li {
     margin-top: 130%;
   }
 
+  #aboutDesc {
+    font-size: 16px;
+  }
+
+  #contactDesc {
+    font-size: 16px;
+  }
+
   #contactInfo {
-    font-size: 10px;
+    font-size: 16px;
     line-height: 225%;
   }
 
@@ -533,10 +535,35 @@ li {
       max-width: 85%;
     }
 
+    #aboutDesc {
+      font-size: 16px;
+    }
+
+    #contactDesc {
+      font-size: 16px;
+    }
+
+    #contactInfo {
+      font-size: 16px;
+      line-height: 225%;
+    }
+
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
+  #aboutDesc {
+    font-size: 16px;
+  }
+
+  #contactDesc {
+    font-size: 16px;
+  }
+
+  #contactInfo {
+    font-size: 16px;
+    line-height: 225%;
+  }
 
 }
