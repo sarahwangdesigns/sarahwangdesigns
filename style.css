@@ -420,6 +420,10 @@ li {
   width: 150%;
 }
 
+#contactDesc {
+  width: 85%;
+}
+
 #contactInfo {
   line-height: 225%;
 }
