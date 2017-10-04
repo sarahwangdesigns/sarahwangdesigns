@@ -286,7 +286,7 @@ li a:focus {
   clear: both;
 }
 
-#aboutMe {
+#title {
   font-size: 24px;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
@@ -315,31 +315,31 @@ li a:focus {
   margin-right: 10%;
 }
 
-#contactMe {
+/*#contactMe {
   font-size: 24px;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
-}
+}*/
 
 #contactDesc {
   font-size: 14px;
 }
 
-#contactIcons {
+#contactInfo {
   position: relative;
   line-height: 175%;
 }
 
-#contactIcons a {
+#contactInfo a {
   text-decoration: none;
   color: #BC6F85;
 }
 
-#contactIcons a:hover {
+#contactInfo a:hover {
   color: #D997AA;
 }
 
-#contactIcons a:visited {
+#contactInfo a:visited {
   color: lightgray;
 }
 
@@ -380,3 +380,128 @@ footer a:hover {
   background-color: #ABC178;
   padding: 8px;
 }
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+#logo {
+  font-size: 18px;
+}
+
+li {
+  font-size: 12px;
+  position: relative;
+}
+
+#welcome {
+    font-size: 24px;
+  }
+
+#title {
+    font-size: 18px;
+  }
+
+#pictureOfMe {
+ width: 75%;
+ height: auto;
+}
+
+#about {
+  position: relative;
+  right: 40%;
+  width: 100%;
+  margin-top: 130%;
+}
+
+#contactInfo {
+  font-size: 10px;
+  line-height: 225%;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  #logo {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 12px;
+    position: relative;
+  }
+
+  #welcome {
+      font-size: 24px;
+    }
+
+  #title {
+      font-size: 18px;
+    }
+
+  #pictureOfMe {
+   width: 75%;
+   height: auto;
+  }
+
+  #about {
+    position: relative;
+    right: 40%;
+    width: 100%;
+    margin-top: 130%;
+  }
+
+  #contactInfo {
+    font-size: 10px;
+    line-height: 225%;
+  }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #logo {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 12px;
+    position: relative;
+  }
+
+  #welcome {
+      font-size: 24px;
+    }
+
+  #title {
+      font-size: 18px;
+    }
+
+  #pictureOfMe {
+   width: 75%;
+   height: auto;
+  }
+
+  #about {
+    position: relative;
+    right: 40%;
+    width: 100%;
+    margin-top: 130%;
+  }
+
+  #contactInfo {
+    font-size: 10px;
+    line-height: 225%;
+  }
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
