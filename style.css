@@ -458,6 +458,7 @@ li {
 
   #welcome {
       font-size: 24px;
+      width: 90%;
     }
 
   #title {
@@ -465,7 +466,7 @@ li {
     }
 
   #pictureOfMe {
-   width: 75%;
+   width: 100%;
    height: auto;
   }
 
@@ -473,7 +474,7 @@ li {
     position: relative;
     right: 40%;
     width: 100%;
-    margin-top: 130%;
+    margin-top: 200%;
   }
 
   #contactInfo {
@@ -491,8 +492,17 @@ li {
   }
 
   li {
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
+  }
+
+  .text {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .subtext {
+    font-size: 14px;
   }
 
   #welcome {
@@ -526,9 +536,17 @@ li {
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-
+  #welcome {
+      width: 90%;
+    }
 
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+
+  #welcome {
+      width: 90%;
+    }
+
+}
