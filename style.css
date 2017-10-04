@@ -447,6 +447,15 @@ li {
     position: relative;
   }
 
+  .text {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .subtext {
+    font-size: 14px;
+  }
+
   #welcome {
       font-size: 24px;
     }
