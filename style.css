@@ -384,17 +384,33 @@ footer a:hover {
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
 
+header {
+  margin-top: 8%;
+}
+
 #logo {
   font-size: 18px;
+  margin-left: 18%;
 }
 
 li {
   font-size: 12px;
+  right: 12%;
   position: relative;
+}
+
+.text {
+  font-size: 12px;
+  width: 95%;
+}
+
+.subtext {
+  font-size: 12px;
 }
 
 #welcome {
     font-size: 24px;
+    width: 80%;
   }
 
 #title {
@@ -472,6 +488,7 @@ li {
 
   #welcome {
       font-size: 24px;
+      width: 80%;
     }
 
   #title {
