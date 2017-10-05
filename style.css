@@ -52,7 +52,6 @@ table {
 * {
   margin: 0px auto;
   padding: 0px;
-  background-color: white;
 }
 
 body {
@@ -61,7 +60,6 @@ body {
   text-align: center;
   width: 100%;
   min-height: 100%;
-  background-color: white;
 }
 
 #enter {
@@ -410,13 +408,13 @@ li {
   }
 
 #pictureOfMe {
- width: 75%;
+ width: 80%;
  height: auto;
 }
 
 #about {
   position: relative;
-  right: 40%;
+  right: 38%;
   margin-top: 130%;
 }
 
