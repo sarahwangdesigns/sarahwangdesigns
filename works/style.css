@@ -142,7 +142,8 @@ li a:active {
   position: fixed;
   margin-top: 10%;
   width: 60px;
-  background-color: gray;
+  background-color: white;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 .icon-bar a {
@@ -155,13 +156,15 @@ li a:active {
 }
 
 .icon-bar a:hover {
-  background-color: black;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  /*background-color: black;*/
   color: white;
   opacity: 1;
 }
 
 .active {
-  background-color: black !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  /*background-color: black !important;*/
   color: white;
 }
 
@@ -473,12 +476,13 @@ button.back-to-top.show:active {
 
   #logo {
     font-size: 18px;
-    margin-left: 18%;
+    margin-left: 6%;
   }
 
-  li {
-    font-size: 12px;
-    right: 12%;
+  #nav{
+    font-size: 11px;
+    margin-top: 4%;
+    right: 6%;
     position: relative;
   }
 

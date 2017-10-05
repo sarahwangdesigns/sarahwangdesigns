@@ -374,10 +374,6 @@ header {
   margin-top: 8%;
 }
 
-#work h1 {
-  width: 80%;
-}
-
 #logo {
   font-size: 18px;
   margin-left: 18%;
@@ -402,6 +398,11 @@ li {
     font-size: 30px;
     max-width: 85%;
   }
+
+  #work h1 {
+    width: 80%;
+  }
+
 
 #title {
     font-size: 18px;
