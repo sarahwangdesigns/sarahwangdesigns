@@ -232,8 +232,8 @@ li a:active {
   clear: both;
 }
 
-#work h5 {
-  margin-top: 5%;
+#work h4 {
+  margin-top: 7%;
 }
 
 #workDesc {
@@ -495,6 +495,10 @@ button.back-to-top.show:active {
     position: relative;
   }
 
+  #work {
+    left: 12%;
+  }
+
   #work h1 {
       font-size: 20px;
       width: 75%;
@@ -505,12 +509,18 @@ button.back-to-top.show:active {
     width: 75%;
   }
 
+  #work h4 {
+    font-size: 12px;
+    width: 75%;
+  }
+
   #container p {
     font-size: 12px;
   }
 
   #pic1 {
     margin-top: 20%;
+    left: 2%;
    width: 80%;
    height: auto;
   }
@@ -580,6 +590,11 @@ button.back-to-top.show:active {
 
   #work h3 {
     font-size: 16px;
+    width: 75%;
+  }
+
+  #work h4 {
+    font-size: 12px;
     width: 75%;
   }
 
