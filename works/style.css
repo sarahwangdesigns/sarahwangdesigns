@@ -472,43 +472,11 @@ button.back-to-top.show:active {
 }
 
 
-/* external css: flickity.css */
-
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
-.carousel {
-  background: #EEE;
-}
-
-.carousel img {
-  width: 100%;
-}
-
 .carousel-cell {
-  width: auto;
-  height: auto;
+  width: 50%; /* half-width */
+  height: 160px;
   margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
 }
-
-.carousel-cell.is-selected {
-  background: #ED2;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
-
 
 
 
