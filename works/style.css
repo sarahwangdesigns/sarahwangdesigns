@@ -363,19 +363,14 @@ li a:active {
 }
 
 .carousel-caption {
-    position: relative;
-    left: auto;
-    right: auto;
+  position: relative;
+  padding: 0;
+  font-weight: bold;
 }
 
-/*.carousel-caption {
-  padding: 0;
-  opacity: .85;
-}*/
-
-.carousel-indicator {
+.carousel-indicators {
   position: relative;
-  text-align: center;
+  color: black;
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
@@ -476,13 +471,6 @@ button.back-to-top.show:active {
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
-}
-
-
-.carousel-cell {
-  width: 50%; /* half-width */
-  height: 160px;
-  margin-right: 10px;
 }
 
 
