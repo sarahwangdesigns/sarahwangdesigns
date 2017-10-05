@@ -227,9 +227,13 @@ li a:active {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   max-width: 60%;
-  margin-top: 20%;
+  margin-top: 18%;
   float: left;
   clear: both;
+}
+
+#work h5 {
+  margin-top: 5%;
 }
 
 #workDesc {
