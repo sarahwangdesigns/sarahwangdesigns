@@ -363,17 +363,24 @@ li a:active {
 }
 
 .carousel-caption {
-  padding: 0;
-  opacity: .85;
+    position: relative;
+    left: auto;
+    right: auto;
 }
 
+/*.carousel-caption {
+  padding: 0;
+  opacity: .85;
+}*/
+
 .carousel-indicator {
+  position: relative;
   text-align: center;
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
   width: 100%;
-  /* use this, or not */
+  height: auto;
   margin: 0;
   padding: 0;
 }
