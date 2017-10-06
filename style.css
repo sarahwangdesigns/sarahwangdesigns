@@ -293,7 +293,6 @@ li a:focus {
 #aboutDesc {
   font-size: 14px;
   width: 100%;
-  /*margin-right: 20%;*/
 }
 
 #contact {
@@ -462,6 +461,7 @@ li {
 
   .subtext {
     font-size: 14px;
+    width: 90%;
   }
 
   #welcome {
