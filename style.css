@@ -122,8 +122,9 @@ nav {
   position: relative;
   max-width: 90%;
   font-weight: 400;
-  margin-left: 55%;
+  margin-left: 60%;
   font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 23%;
 }
 
 ul {
@@ -149,7 +150,6 @@ li {
   font-weight: 500;
   margin-left: 10%;
   float: left;
-  margin-bottom: 23%;
   clear: both;
 }
 
@@ -165,7 +165,7 @@ li {
   font-weight: 600;
   font-size: 48px;
   text-align: left;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
   margin-left: 10%;
 }
 
@@ -202,9 +202,7 @@ li a:focus {
   color: black;
 }
 
-
 #work {
-  margin-top: 20%;
   margin-bottom: 10%;
 }
 
