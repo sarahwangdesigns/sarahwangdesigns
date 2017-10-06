@@ -378,9 +378,13 @@ header {
   left: -2%;
 }
 
+nav {
+  width: 40%;
+  right: 8%;
+}
+
 li {
   font-size: 12px;
-  right: 15%;
   position: relative;
 }
 
