@@ -333,38 +333,6 @@ li a:focus {
   float: left;
 }
 
-
-footer {
-  position: fixed;
-  height: auto;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 8px;
-  background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-size: 12px;
-}
-
-footer a:link {
-  color: #000000;
-  text-decoration: none;
-  padding: 8px;
-}
-
-footer a:visited {
-  color: #000000;
-  text-decoration: underline;
-  padding: 8px;
-}
-
-footer a:hover {
-  color: #ffffff;
-  background-color: #ABC178;
-  padding: 8px;
-}
-
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
 

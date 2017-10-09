@@ -716,33 +716,3 @@ button.back-to-top.show:active {
   }
 
 }
-
-/*footer {
-  position: fixed;
-  height: auto;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 8px;
-  background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-size: 12px;
-}
-
-footer a:link {
-  color: lightgray;
-  text-decoration: none;
-  padding: 8px;
-}
-
-footer a:visited {
-  color: gray;
-  text-decoration: underline;
-  padding: 8px;
-}
-
-footer a:hover {
-  color: black;
-  padding: 8px;
-}*/
